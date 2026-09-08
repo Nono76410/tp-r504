@@ -20,3 +20,8 @@ def test_3():
     # Cas x^0 = 1
     assert f.f(5, 0) == 1
     assert f.f(-3, 0) == 1
+    
+    with pytest.raises(ValueError):
+        f.f(0, -1)
+    with pytest.raises(ValueError):
+        f.f(0, -2)
