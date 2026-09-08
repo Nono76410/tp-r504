@@ -4,6 +4,10 @@ jobs:
   test1:
     runs-on: ubuntu-latest
     steps:
+      - name: Afficher la branche et l'OS
+        run: |
+          echo "Nom de la branche : ${{ github.ref_name }}"
+          echo "OS de la VM : ${{ runner.os }}"
       - uses: actions/checkout@v4
       - name: Set up Python
         uses: actions/setup-python@v5
