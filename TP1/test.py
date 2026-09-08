@@ -25,3 +25,6 @@ def test_3():
         f.f(0, -1)
     with pytest.raises(ValueError):
         f.f(0, -2)
+
+    with pytest.raises(TypeError):
+        f.f(2.5, 3)
