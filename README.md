@@ -1,3 +1,3 @@
 # tp-r504
 
-![Test pytest.yml](github.com/Nono76410/tp-r504/actions/workflows/pytest.yml/badge.svg)
+[![Test pytest.yml](https://github.com/Nono76410/tp-r504/actions/workflows/pytest.yml/badge.svg)](https://github.com/Nono76410/tp-r504/actions)
